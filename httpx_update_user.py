@@ -48,8 +48,8 @@ update_data = {
   "middleName": "BU_4"
 }
 
-update_user_response = httpx.patch(f"http://localhost:8000/api/v1/users/"
-                                   f"{create_user_response_data['user']['id']}",
+user_id = create_user_response_data['user']['id']
+update_user_response = httpx.patch(f"http://localhost:8000/api/v1/users/{user_id}",
                                    headers=update_user_headers, json=update_data)
 print(update_user_response.status_code)
 update_user_response_data = update_user_response.json()
