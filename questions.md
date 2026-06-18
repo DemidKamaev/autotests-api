@@ -50,3 +50,9 @@ Unfortunately, many languages outperform Python in time tests.)
 под frontend.
 (The language's syntax makes it difficult to support applications written in it. 
 It wasn't originally developed for the frontend.)
+
+Среды разработки автоматически отлаживают код, делают подсветку кода, имеют средства для
+обработки ошибок, имеют инструменты для сборки проекта приложения в готовую программу и т. д.
+
+Development environments automatically debug code, provide code highlighting, 
+error handling tools, and tools for assembling an application project into a finished program, etc.
