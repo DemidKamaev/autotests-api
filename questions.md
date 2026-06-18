@@ -24,3 +24,29 @@
 
 • Файлы, находящиеся на вашем ПК, никак не связаны с сервером. Поэтому если вы хотите
 открыть какой-то файл с вашего компьютера, его прежде нужно загрузить на сервер.
+
+
+**О Python можно сказать: / One can say about Python**
+
+• Высокоуровневый язык программирования. Он понятен человеку, и его легко изучать
+(A high-level programming language. It's human-readable and easy to learn.)
+
+• Универсален 
+
+• Высокая скорость разработки / High development speed
+
+• Интерпретируемый. Код будет выполняться построчно и последовательно интерпретатором.
+Его можно скачать с официального сайта. / Interpreted. The code will be executed line by line and 
+sequentially by the interpreter.
+It can be downloaded from the official website.
+
+_Недостатки / Flaws:_
+• Медленнее, чем некоторые другие языки программирования. К сожалению, в тестах по
+времени многие языки обгоняют Python
+(Slower than some other programming languages. 
+Unfortunately, many languages outperform Python in time tests.)
+
+• Синтаксис языка затрудняет поддержку приложений на нем. Изначально не был разработан
+под frontend.
+(The language's syntax makes it difficult to support applications written in it. 
+It wasn't originally developed for the frontend.)
