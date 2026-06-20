@@ -56,3 +56,55 @@ It wasn't originally developed for the frontend.)
 
 Development environments automatically debug code, provide code highlighting, 
 error handling tools, and tools for assembling an application project into a finished program, etc.
+
+
+### Tuple ("кортеж")
+Точно такой же, как `list` - только нет `append` и `remove` 
+(т.е. в существующий `tuple` не получится положить еще элемент или же удалить его). 
+Это из-за того, что объект tuple, будучи созданным, не может быть изменен 
+(а добавление элемента в tuple - это его изменение).
+
+my_tuple = (1, 2, 3)
+my_tuple
+
+# Можно складывать, как и list
+# при этом создастся новый (!) tuple, куда копируется сначала первый, потом второй
+my_tuple + (5, 5)
+
+(1, 2, 3, 5, 5)
+
+
+В `set` можно добавлять **только** неизменяемые объекты!
+Это связано с его внутренним строением.
+Так, создать множество вида `{2, "hello", []}` не получится, т.к. третий элемент имеет тип `list`, а он изменяемый.
+
+Можно брать пересечения множеств, объединение, симметричную разность:
+- `a.intersection(b)`
+- `a.union(b)`
+- `a.symmetric_difference(b)`
+
+
+a = {'a', (1, 2), 3}
+b = {3, (1, 2), 'unique'}
+a.intersection(b)
+----
+{(1, 2), 3}
+
+
+
+Как сделать список уникальным (без повторяющихся элементов) /
+How to make a list unique (without repeating elements)
+
+#### Когда применять
+Когда требуются удобства list, но и в то же время неизменяемость. /
+#### When to use
+When you need the convenience of a list, but also the immutability of a set. 
+
+### Set
+Близок к "множествам" из математики. Особенен тем, что хранит уникальные элементы.
+Не запоминает порядок элементов.
+
+### Set
+Similar to the "sets" in mathematics. It is special because it stores unique elements.
+It does not remember the order of the elements.
+
