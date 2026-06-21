@@ -77,6 +77,7 @@ error handling tools, and tools for assembling an application project into a fin
 my_tuple = (1, 2, 3)
 my_tuple
 
+---
 # Можно складывать, как и list
 # при этом создастся новый (!) tuple, куда копируется сначала первый, потом второй
 my_tuple + (5, 5)
