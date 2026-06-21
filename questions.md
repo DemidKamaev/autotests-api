@@ -96,12 +96,12 @@ my_tuple + (5, 5)
 - `a.symmetric_difference(b)`
 
 
-a = {'a', (1, 2), 3}
-b = {3, (1, 2), 'unique'}
+- a = {'a', (1, 2), 3}
+- b = {3, (1, 2), 'unique'}
 ---
 a.intersection(b)
 ----
-{(1, 2), 3}
+- {(1, 2), 3}
 
 ---
 a.union(b)
