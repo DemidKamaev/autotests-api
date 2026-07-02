@@ -159,6 +159,18 @@ Similar to the "sets" in mathematics. It is special because it stores unique ele
 It does not remember the order of the elements.
 
 
+# Чтение файлов и обзор данных
+
+## Pandas
+
+Pandas умеет читать данные в самых разных формах хранения:
+1. CSV (comma separated values, простой формат хранения таблиц).
+2. Excel таблицы.
+3. Напрямую из баз данных.
+4. Веб-форматы: `json`, `xml`.
+5. Специальные форматы для данных: `parquet`, `feather`, `orc`.
+
+
 Мы только что считали CSV и сохранили как `DataFrame` - тип данных из библиотеки pandas.
 
 Давайте посмотрим на то, какие возможности дает `DataFrame`.
